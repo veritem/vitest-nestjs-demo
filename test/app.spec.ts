@@ -4,7 +4,7 @@ import { AppModule } from '../src/app.module';
 import supatest from "supertest"
 import { describe, beforeEach, it, expect } from 'vitest'
 
-describe('AppController (e2e)', () => {
+describe('appController (e2e)', () => {
 	let app: INestApplication;
 
 	beforeEach(async () => {

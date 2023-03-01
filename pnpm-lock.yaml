@@ -17,6 +17,7 @@ specifiers:
   eslint: ^8.0.1
   eslint-config-prettier: ^8.3.0
   eslint-plugin-prettier: ^4.0.0
+  eslint-plugin-vitest: ^0.0.53
   jest: 29.3.1
   prettier: ^2.3.2
   reflect-metadata: ^0.1.13
@@ -51,6 +52,7 @@ devDependencies:
   eslint: 8.35.0
   eslint-config-prettier: 8.6.0_eslint@8.35.0
   eslint-plugin-prettier: 4.2.1_u2zha4kiojzs42thzpgwygphmy
+  eslint-plugin-vitest: 0.0.53_ycpbpc6yetojsgtrx3mwntkhsu
   jest: 29.3.1_zfha7dvnw4nti6zkbsmhmn6xo4
   prettier: 2.8.4
   source-map-support: 0.5.21
@@ -2711,6 +2713,19 @@ packages:
       eslint-config-prettier: 8.6.0_eslint@8.35.0
       prettier: 2.8.4
       prettier-linter-helpers: 1.0.0
+    dev: true
+
+  /eslint-plugin-vitest/0.0.53_ycpbpc6yetojsgtrx3mwntkhsu:
+    resolution: {integrity: sha512-OvPAPp7P9xr+3VLM8eHcenYOT3rdyWQb0naZ+ZeAjpDwYcyQWfOofS6Foq1Hh+ilEM94GegxuduJLLEEM94nQg==}
+    engines: {node: 14.x || >= 16}
+    peerDependencies:
+      eslint: '>=8.0.0'
+    dependencies:
+      '@typescript-eslint/utils': 5.54.0_ycpbpc6yetojsgtrx3mwntkhsu
+      eslint: 8.35.0
+    transitivePeerDependencies:
+      - supports-color
+      - typescript
     dev: true
 
   /eslint-scope/5.1.1:
